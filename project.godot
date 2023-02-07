@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="SPACE INVADERS"
+config/name="SPACE INVADERS 2023"
 run/main_scene="res://Menu/Menu.tscn"
 config/icon="res://icon.png"
 

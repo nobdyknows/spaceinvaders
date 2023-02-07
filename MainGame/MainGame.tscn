@@ -14,15 +14,14 @@ extents = Vector2( 20.9622, 380.576 )
 extents = Vector2( 662.058, 10 )
 
 [node name="SpaceInvaders" type="Control"]
-margin_left = -0.768188
-margin_top = 1.23187
-margin_right = 1279.23
-margin_bottom = 721.232
+margin_left = 7.82581
+margin_top = -13.501
+margin_right = 1287.82
+margin_bottom = 706.499
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-countdownMax = 50
 
 [node name="HUD" type="HBoxContainer" parent="."]
 margin_right = 40.0
