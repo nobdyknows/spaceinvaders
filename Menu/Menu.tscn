@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Images/tie.png" type="Texture" id=1]
 [ext_resource path="res://Menu/PaletteMosaic-Regular.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Menu/buttonFont.tres" type="DynamicFont" id=3]
+[ext_resource path="res://Menu/Start Game Button.gd" type="Script" id=4]
 
 [sub_resource type="DynamicFont" id=1]
 size = 55
@@ -65,6 +66,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 3 )
 text = "Start Game"
+script = ExtResource( 4 )
 
 [node name="Options" type="Button" parent="Layout/Main/Buttons"]
 margin_top = 207.0
@@ -96,3 +98,4 @@ margin_bottom = 720.0
 margin_right = 211.0
 margin_bottom = 14.0
 text = "Copyright Zane Williamson 2022."
+[connection signal="pressed" from="Layout/Main/Buttons/Start Game Button" to="Layout/Main/Buttons/Start Game Button" method="_on_Start_Game_Button_pressed"]
