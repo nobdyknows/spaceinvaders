@@ -18,10 +18,12 @@ margin_left = 7.82581
 margin_top = -13.501
 margin_right = 1287.82
 margin_bottom = 706.499
+rect_scale = Vector2( 0.992887, 1.01752 )
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+countdownMax = 50
 
 [node name="HUD" type="HBoxContainer" parent="."]
 margin_right = 40.0
@@ -71,7 +73,8 @@ position = Vector2( -5.37704, -0.768158 )
 shape = SubResource( 1 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 642.94, 669.056 )
+position = Vector2( 628.69, 670.956 )
+collision/safe_margin = 0.383
 
 [node name="Border_Top" type="KinematicBody2D" parent="." groups=[
 "top",
@@ -83,6 +86,7 @@ position = Vector2( 646.934, -31.955 )
 ]]
 position = Vector2( 0, 1 )
 shape = SubResource( 2 )
+one_way_collision_margin = 5.0
 
 [node name="Border_Bottom" type="KinematicBody2D" parent="." groups=[
 "bottom",
@@ -148,10 +152,11 @@ position = Vector2( -578.685, 184.038 )
 position = Vector2( -469.915, 183.97 )
 
 [node name="Enemy17" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 223.936, 294.115 )
+position = Vector2( 225.164, 294.115 )
+motion/sync_to_physics = true
 
 [node name="Enemy18" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 330.402, 294.815 )
+position = Vector2( 327.947, 294.815 )
 
 [node name="Enemy19" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( 5.01413, 294.883 )
