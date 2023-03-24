@@ -1,16 +1,13 @@
 extends KinematicBody2D
 
+var speed = 400
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	GlobalVariables.enemyBulletInstanceCount += 1
+	set_physics_process(true)
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _physics_process(delta):
+	var collidedObject = move_and_collide(Vector2(0, + speed*delta*0.4))
+	if (collidedObject):
+		print(collidedObject.collider.name)
+			if "Player" in colldedObject
