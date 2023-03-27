@@ -16,7 +16,7 @@ func _ready():
 	print ("Game Over")
 	GlobalVariables.bulletInstanceCount = 0
 	GlobalVariables.enemyBulletInstanceCount = 0
-	get_tree().change_scene("res://Menu/Menu.tscn" )
+	get_tree().change_scene("res://Menu/GameOver.tscn" )
 
 func _process(delta):
 	$HUD/CurrentScore.text = str (GlobalVariables.scoringinformation["currentScore"])

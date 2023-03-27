@@ -151,8 +151,8 @@ position = Vector2( -578.685, 184.038 )
 [node name="Enemy16" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( -469.915, 183.97 )
 
-[node name="Enemy17" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 225.164, 294.115 )
+[node name="final boss" parent="Enemies" instance=ExtResource( 3 )]
+position = Vector2( 223.722, 294.115 )
 motion/sync_to_physics = true
 
 [node name="Enemy18" parent="Enemies" instance=ExtResource( 3 )]

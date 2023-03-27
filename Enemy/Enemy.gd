@@ -1,5 +1,6 @@
 extends KinematicBody2D
 
+var bullet = preload("res://Bullet-Enemy/Bullet-Enemy.tscn")
 
 func _ready():
 	$Area2D.connect("area_entered", self, "_colliding")
@@ -22,4 +23,4 @@ func _process(delta):
 		var bulletInstance = bullet.instance()
 		
 		bulletInstance.position = Vector2(global_position.x, global_position.y+20)
-		get_tree().ge_root().add_child(bulletInstance)
+		get_tree().get_root().add_child(bulletInstance)
