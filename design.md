@@ -12,3 +12,14 @@ will include some sort of boss that has more than 1 health and have a special at
 
 # planning diagram - project plan      
 tax fraud is ok, whats the govorment gonna do?, tax me more?, like i'm gonna pay them
+```mermaid 
+gantt
+title project plan 
+dateFormat DD-MM-YY
+axisFormat %d-%B
+tickInterval 1week
+
+section design
+project overview:05-04-23,1d
+project plan: 05-04-23,24-04-23
+```
