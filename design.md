@@ -10,8 +10,9 @@ will include some sort of boss that has more than 1 health and have a special at
 ### weapons (player)
 the player will be able to aquire a power up of sorts, somthing like a few seconds of invulnerability or extra damage
 ### weapons (enemy)
-in later stages the enemies will become faster in both movement and fire rate,
-
+in later stages the enemies will become faster in both movement and fire rate, and perhaps take more damage to kill
+### hidden can of beans
+ self explanitory
 # behaviour - user journy
 
 
@@ -28,4 +29,7 @@ section design
 project overview:05-04-23,1d
 project plan: 05-04-23,24-04-23
 slaying boss: 23-04-23, 29-04-23
-due date: 07-06-23, 07-06-23
+due date: 06-06-23, 07-06-23
+behaviour: 14-05-23, 21-05,23 
+programming logic: 07-05-23 14-05-23
+planning diagrams: 01-05-23 07-05-23
