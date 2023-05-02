@@ -10,7 +10,7 @@ will include some sort of boss that has more than 1 health and have a special at
 ### weapons (player)
 the player will be able to aquire a power up of sorts, somthing like a few seconds of invulnerability or extra damage
 ### weapons (enemy)
-in later stages the enemies will become faster in both movement and fire rate, and perhaps take more damage to kill
+in later stages the enemies will become faster in both movement and fire rate, and perhaps take more damage to kill, this could make later levels harder to test the player and thier ability 
 ### hidden can of beans
  self explanitory
 # behaviour - user journy
