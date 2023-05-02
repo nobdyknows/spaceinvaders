@@ -1,7 +1,7 @@
 # project overview
-the game is a "space invaders" clone
+the game is a "space invaders" clone, this clone will have an array of changes such as: a boss, multiple enemy types and power ups, there for seperating it from the original and making it different 
 ## new gameplay
-a boss may be added in future updates, there will be enemies that have a higher health pool, structures will be added later down the line
+a boss will be added in future updates, there will be enemies that have a higher health pool, structures will be added later down the line to challenge and entice the player
 
 ### updates
 the updated gameplay will have stuff like nutron bombs, these bombs will have a 10 second  cooldown between uses
