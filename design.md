@@ -8,7 +8,7 @@ the updated gameplay will have stuff like nutron bombs, these bombs will have a 
 ### multiple enemy types 
 will include some sort of boss that has more than 1 health and have a special attack, somthing like a lazer that you have to avoid at all costs
 ### weapons (player)
-the player will be able to aquire a power up of sorts, somthing like a few seconds of invulnerability or extra damage
+the player will be able to aquire a power up of sorts, somthing like a few seconds of invulnerability or extra damage, there will also be weapons added to make it a bit simpler to eradicate the enemy such as an "O blaster" and turning auto fire into a gun upgrade instead of an option 
 ### weapons (enemy)
 in later stages the enemies will become faster in both movement and fire rate, and perhaps take more damage to kill, this could make later levels harder to test the player and thier ability 
 ### hidden can of beans
