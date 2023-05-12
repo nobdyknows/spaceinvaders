@@ -16,7 +16,7 @@ in later stages the enemies will become faster in both movement and fire rate, a
 # behaviour - user journy
 
 
-# planning diagram - project plan      
+# planning diagram - project plan     
 
 ```mermaid 
 gantt
