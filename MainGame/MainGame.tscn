@@ -146,7 +146,7 @@ position = Vector2( -362.067, 184.038 )
 position = Vector2( -253.297, 183.97 )
 
 [node name="Enemy15" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -578.685, 184.038 )
+position = Vector2( 282.656, 402.347 )
 
 [node name="Enemy16" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( -469.915, 183.97 )
@@ -157,7 +157,7 @@ position = Vector2( 469.819, 485.915 )
 motion/sync_to_physics = true
 
 [node name="Enemy18" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 327.947, 294.815 )
+position = Vector2( 225.673, 299.493 )
 
 [node name="Enemy19" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( 5.01413, 294.883 )
@@ -196,7 +196,7 @@ position = Vector2( -364.372, 404.497 )
 position = Vector2( -255.601, 404.428 )
 
 [node name="Enemy31" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -579.789, 404.497 )
+position = Vector2( 295.935, 184.629 )
 
 [node name="Enemy32" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( -472.219, 404.428 )
