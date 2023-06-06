@@ -1,5 +1,5 @@
 extends KinematicBody2D
-
+#
 var movement_speed = 200
 export (int) var health = 3
 var bulletSource = preload ("res://Bullet/Bullet.tscn")
